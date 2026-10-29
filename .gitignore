@@ -1,0 +1,81 @@
+# Environment and secrets
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!frontend/.env.example
+!backend/.env.example
+
+# Python virtual environments & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+.hypothesis/
+venv/
+.venv/
+env/
+.env/
+backend/venv/
+backend/.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Local database files & journal/WAL files
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/*.db
+backend/*.db-wal
+backend/*.db-shm
+backend/*.sqlite3
+
+# Local runtime data & user uploaded documents
+backend/data/uploads/
+data/uploads/
+**/data/uploads/
+
+# Node / Vite build artifacts & dependencies
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+*.tsbuildinfo
+.eslintcache
+
+# Logs & temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+tmp/
+temp/
+
+# Editors and OS
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
